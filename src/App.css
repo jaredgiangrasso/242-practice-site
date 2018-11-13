@@ -1,0 +1,23 @@
+h1 {
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'EB Garamond', serif;
+	padding: 31.5% 4.2%;
+  	letter-spacing: 1.77em;
+  	font-size: 66px;
+}
+
+.navbar {
+	margin-top: 50px;
+}
+
+.navbar .navbar-nav .nav-item > a {
+	color: white;
+	font-size: 14px;
+	font-family: Helvetica;
+	font-weight: bold;
+	letter-spacing: .75em;
+	padding-right: 50px;
+	padding-left: 50px;
+	text-transform: uppercase;
+}
