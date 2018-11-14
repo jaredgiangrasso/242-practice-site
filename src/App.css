@@ -2,7 +2,7 @@ h1 {
 	text-align: center;
 	text-transform: uppercase;
 	font-family: 'EB Garamond', serif;
-	padding: 31.5% 4.2%;
+	padding: 39% 4.2%;
   	letter-spacing: 1.77em;
   	font-size: 66px;
 }
@@ -17,7 +17,30 @@ h1 {
 	font-family: Helvetica;
 	font-weight: bold;
 	letter-spacing: .75em;
+	text-transform: uppercase;
+}
+
+.navbar .navbar-nav .nav-item {
 	padding-right: 50px;
 	padding-left: 50px;
-	text-transform: uppercase;
+}
+
+.navLinks {
+	padding-left: 10%;
+}
+
+.socialContainer {
+	position: absolute;
+	right: 5.5%;
+	top: 35%;
+	display: flex;
+	flex-direction: column;
+}
+
+.socialContainer li{
+	padding-top: 50px;
+}
+
+.socialContainer ul{
+	list-style: none;
 }
