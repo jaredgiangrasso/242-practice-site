@@ -1,9 +1,8 @@
 body {
-  min-height: 100%;
   margin: 0;
   padding: 0;
   color: white;
-  background-image: url("images/Background_Full.png");
+  background-image: url("images/Background.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

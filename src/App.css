@@ -1,14 +1,14 @@
 h1 {
 	text-align: center;
 	text-transform: uppercase;
-	font-family: 'EB Garamond', serif;
-	padding: 39% 4.2%;
+	font-family: 'Lusitana', serif;
   	letter-spacing: 1.77em;
   	font-size: 66px;
+  	padding-left: 9%;
 }
 
 .navbar {
-	margin-top: 50px;
+	padding-top: 2%
 }
 
 .navbar .navbar-nav .nav-item > a {
@@ -25,22 +25,73 @@ h1 {
 	padding-left: 50px;
 }
 
-.navLinks {
-	padding-left: 10%;
-}
-
 .socialContainer {
-	position: absolute;
-	right: 5.5%;
-	top: 35%;
+	padding-top: 10%;
+	grid-area: sidebarR;
+	align-self: start;
 	display: flex;
 	flex-direction: column;
+	align-items: center;
 }
 
-.socialContainer li{
-	padding-top: 50px;
+.socialContainer a{
+	padding-top: 40px;
 }
 
-.socialContainer ul{
-	list-style: none;
+.whiteLine {
+	padding-top: 40px;
+}
+
+.Tilt {
+	width: 100vw;
+	height: 100vh;
+	position: absolute;
+}
+
+.pedestal {
+	position: fixed;
+	bottom: 0;
+	left: 40%;
+	z-index: 1;
+}
+
+.diamond {
+	position: fixed;
+	bottom: 400px;
+	left: 40%;
+	z-index: 3;
+}
+
+.circle {
+	position: fixed;
+	bottom: 250px;
+	left: 38%;
+}
+
+.line {
+	position: fixed;
+	bottom: 125px;
+	left: 32%;
+	z-index: 2;
+}
+
+.heading {
+	position: absolute;
+	bottom: 500px;
+	left: 21.2%;
+	z-index: 6;
+}
+
+.grid-container {
+  	height: 100vh;
+	align-content: space-between;
+	align-items: center;
+	justify-items: center;
+	display: grid;
+	grid-template-columns: 100px auto 100px;
+  	grid-template-rows: 1fr 5fr 1fr;
+ 	grid-template-areas: 
+ 		"sidebarL nav sidebarR"
+ 		"sidebarL body sidebarR"
+ 		"sidebarL . sidebarR";
 }
